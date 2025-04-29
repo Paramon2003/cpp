@@ -3,7 +3,6 @@
 #include <random>
 #include <algorithm>
 #include <ctime>
-
 Reader::Reader(string name) : name(name) {
 }
 
