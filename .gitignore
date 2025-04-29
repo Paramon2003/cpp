@@ -1,0 +1,41 @@
+# Игнорировать исполняемые и объектные файлы
+*.exe
+*.dll
+*.obj
+*.o
+*.so
+*.a
+*.lib
+*.pdb
+
+# Временные и системные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+*.suo
+*.user
+*.db
+
+# Папки сборки
+/build/
+/Debug/
+/Release/
+/x64/
+/x86/
+
+# Кэш и конфигурация Visual Studio
+.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# Кэш CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Другие системные файлы
+.DS_Store
+Thumbs.db
